@@ -17,6 +17,7 @@ body  {
 .container {
     background-color: hsl(212, 45%, 89%);
     box-shadow: 1px 7px 10px 2px hsl(219, 29%, 71%) ;
+    box-shadow: ;
     margin: 100px 80px;
     padding: 100px;
     width: 1000px;
@@ -67,6 +68,12 @@ img {
     display: none;
 }
 
-@media (375 <= width <= 600px){
-    
+@media (max-width: 600px){
+    body {
+        background:  hsl(212, 45%, 89%);
+        
+    }
+     .container {
+        box-shadow: none;
+     }
 }
