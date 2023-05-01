@@ -26,7 +26,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Ladiamondk/QR-Project)
-- Live Site URL: [Add live site URL here](https://genuine-croissant-5ba1c3.netlify.app/m)
+- Live Site URL: [Add live site URL here](https://genuine-croissant-5ba1c3.netlify.app/)
 
 ## My process
 - First I began by sketched and identified the layout components
