@@ -17,7 +17,6 @@ body  {
 .container {
     background-color: hsl(212, 45%, 89%);
     box-shadow: 1px 7px 10px 2px hsl(219, 29%, 71%) ;
-    box-shadow: ;
     margin: 100px 80px;
     padding: 100px;
     width: 1000px;
