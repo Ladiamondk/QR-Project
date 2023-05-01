@@ -4,7 +4,8 @@
 }
 
 body  {
-    width: 1400px;
+    min-width: 375px;
+    max-width: 1400px;
     background-image: url(/images/favicon-32x32.png);
     background-size: cover;
     display: flex;
@@ -12,9 +13,10 @@ body  {
     justify-content: center;
 }
 
+
 .container {
-    background-color: rgb(205, 230, 255);
-    box-shadow: 3px 5px 50px 1px rgb(220, 220, 220) ;
+    background-color: hsl(212, 45%, 89%);
+    box-shadow: 1px 7px 10px 2px hsl(219, 29%, 71%) ;
     margin: 100px 80px;
     padding: 100px;
     width: 1000px;
@@ -27,7 +29,7 @@ body  {
 
 .container-inner {
     background-color: white;
-    box-shadow: 3px 5px 50px 1px rgb(220, 220, 220);
+    box-shadow: 1px 7px 10px 1px hsl(219, 29%, 71%);
     padding-top: 15px;
     padding-bottom: 15px;
     width: 255px;
@@ -45,6 +47,7 @@ img {
 
 #header {
     padding: 15px 11px 10px 11px;
+    color: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -62,4 +65,8 @@ img {
 
 .attribution {
     display: none;
+}
+
+@media (375 <= width <= 600px){
+    
 }
